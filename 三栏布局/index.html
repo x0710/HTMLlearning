@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		html, body {
+			height: 100%;
+		}
+		.top, .bottom {
+			background-color: green;
+			height: 100px;
+		}
+		.out-centre {
+			height: calc(100% - 200px);
+			background-color: pink;
+		}
+		.left, .right {
+			background-color: brown;
+			width: 20px;
+			height: 100%;
+		}
+		.in-centre {
+			width: calc(100% - 40px);
+		}
+	</style>
+</head>
+<body>
+	<div class='top'>
+	</div>
+	<div class='out-centre'>
+		<div class='left' style='float: left;'></div>
+		<div class='right' style='float: right;'></div>
+		<div class='in-centre'></div>
+	</div>
+	<div class='bottom'></div>
+</body>
+</html>

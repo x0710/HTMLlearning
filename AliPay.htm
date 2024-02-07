@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		.darkblue {
+			background-color: darkblue;
+			color: white;
+		}
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+		.bill {
+			float: left;
+		}
+		.bill-ablity {
+			float: right;
+		}
+		.top::after {
+			clear: both;
+			content: "";
+			display: block;
+			width: 0;
+			height: 0;
+			visibility: hidden;
+		}
+		.headAblity {
+			height: 50px;
+			border: 1px dashed blue;
+			flex: 1;
+			text-align: center;
+			line-height: 50px;
+		}
+		.header {
+			display: flex;
+			justify-content: center;
+		}
+		.content {
+			height: 950px;
+			width: 240px;
+			margin: 0 auto;
+		}
+		.main-ablity {
+			width: 58px;
+			height: 50px;
+			background: lightgreen;
+			margin: 1px;
+		}
+		.main {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.nav {
+			display: flex;
+			margin-top: 100px;
+		}
+		.page {
+			margin: 10px;
+		}
+	</style>
+</head>
+<div class='content'>
+	<div class='top darkblue'>
+		<div class='bill'>账单</div>
+		<div class='bill-ablity'>联系人</div>
+		<div class='bill-ablity'>搜索</div>
+		<div class='bill-ablity'>+</div>
+	</div>
+	<div class='header darkblue'>
+		<div class='headAblity'>扫一扫</div>
+		<div class='headAblity'>付款</div>
+		<div class='headAblity'>卡包</div>
+		<div class='headAblity'>扫一扫</div>
+	</div>
+	<div class='main'>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+		<div class='main-ablity'>账单</div>
+	</div>
+	<div class='ad'>广告</div>
+	<div class='footer'>
+		<div class='nav'>
+			<div class='page'>支付宝</div>
+			<div class='page'>品牌</div>
+			<div class='page'>朋友</div>
+			<div class='page'>我的</div>
+		</div>
+	</div>
+	
+
+</div>
